@@ -3,8 +3,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 const { MONGO_USERNAME, MONGO_PASSWORD, MONGO_PORT, MONGO_IP, MONGO_DATABASE } = require('./config/config');
-const postRoutes = require('./Router/post_route');
-const userRoutes = require('./Router/user_route');
+const postRoutes = require('./routes/post_route');
+const userRoutes = require('./routes/user_route');
 
 
 

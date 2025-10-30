@@ -1,4 +1,4 @@
-const Post = require('../Model/post_model');
+const Post = require('../models/post_model');
 const express = require('express');
 
 // Create a new post
