@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Delete a post by ID
-POST_ID="68dfeb966f593e5c013c6c1c"
+POST_ID="690333500d2da3eaa3236432"
 
-curl -v -X DELETE http://localhost:3000/posts/$POST_ID \
+curl -X DELETE http://localhost:3000/posts/$POST_ID \
   -H "Content-Type: application/json"
 
 
